@@ -36,11 +36,11 @@ router.post("/liveupdate", function (req, res) {
 
             ////////////////////////////////////////////////////////
 
-            let from = `T&T Express Delivery <noreply@tandtxpress.com>`;
+            let from = `T&T Express Delivery <noreply@thetntexps.com>`;
             let receiver = `${email}`;
             let message = `
 						<div style="width: 600px; margin: 0 auto; background: #F0F2F5; padding: 20px; height: 900px;">
-						    <img src="https://tandtxpress.com/assets/images/logo-v2.png" height="50px" />
+						    <img src="https://cour.thetntexps.com/assets/images/logo-v2.png" height="50px" />
 						    <span style="text-decoration: underline;font-weight: bold;font-size: 15px; margin-left: 30px;"> New Parcel Update </span>
 						    <p>
 						        Hello ${receiverName},
@@ -70,8 +70,8 @@ router.post("/liveupdate", function (req, res) {
 						        <div style="font-size: .8em; color: gray">
 						            If you need to reach out to us, send us an email on:
 						            <ul>
-						                <li> Website: www.tandtxpress.com
-						                <li> Email: info@tandtxpress.com
+						                <li> Website: www.cour.thetntexps.com
+						                <li> Email: info@thetntexps.com
 						                <li> Tel: +1 585 308 0030 </li>
 						            </ul>
 						        </div>

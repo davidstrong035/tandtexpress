@@ -27,15 +27,15 @@ module.exports.mailSender = (
   res,
 ) => {
   let transporter = nodemailer.createTransport({
-    host: "mail.tandtxpress.com",
+    host: "mail.thetntexps.com",
     secureConnection: true,
     tls: {
       rejectUnauthorized: false,
     },
     port: 465,
     auth: {
-      user: "noreply@tandtxpress.com", // Generated eheereal User
-      pass: "BTt9]0;g1t4IlN", // Generated etheral pass
+      user: "noreply@thetntexps.com", // Generated eheereal User
+      pass: "e]K.mY3X0v66aB", // Generated etheral pass
     },
   });
 
